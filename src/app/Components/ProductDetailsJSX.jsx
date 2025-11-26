@@ -53,7 +53,7 @@ export default function ProductDetailsJSX({ product }) {
                         </div>
                         <div className="flex gap-10 my-5 mb-20">
                             <div className="flex gap-10 border rounded-md px-2 pt-2">
-                                <p className="cursor-pointer select-none" onClick={() => dispatch(decreaseQuantity(item.id))}>-</p>
+                                <p className="cursor-pointer select-none" onClick={() => setCount(count - 1)}>-</p>
                                 <h1>{count}</h1>
                                 <p className="cursor-pointer select-none" onClick={() => setCount(count + 1)}>+</p>
                             </div>
