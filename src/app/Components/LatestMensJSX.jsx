@@ -62,7 +62,7 @@ export default function LatestMensJSX() {
         new: "bg-green-500",
     }
     return (
-        <section ref={containerRef} className="w-full h-screen py-10">
+        <section ref={containerRef} className="w-full h-[70vh] sm:h-[70vh] md:h-[90vh] lg:h-screen py-10">
             <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row w-full justify-between items-center py-20 px-20">
                 <h1 ref={titleRef} className="uppercase text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-center sm:text-center md:text-left lg:text-left">latest mens</h1>
                 <div className="customBtn flex justify-end relative top-20 items-center gap-2">

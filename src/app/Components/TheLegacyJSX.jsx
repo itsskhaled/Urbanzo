@@ -69,7 +69,7 @@ export default function TheLegacyJSX() {
 
     }, [products]);
     return (
-        <section ref={containerRef} className="w-full h-screen relative">
+        <section ref={containerRef} className="w-full h-[70vh] sm:h-[70vh] md:h-[90vh] lg:h-screen relative">
             <div className="py-20 px-20">
                 <h1 ref={titleRef} className="uppercase text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-center sm:text-center md:text-left lg:text-left">wear the legacy</h1>
                 <div className="customBtn flex justify-end relative top-20 gap-2">
